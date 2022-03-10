@@ -40,4 +40,8 @@ public class CustomListTest {
 
 
     }
+    @Test
+    public void countcityTest(){
+        assertEquals(0, list.countCities());
+    }
 }
